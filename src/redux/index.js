@@ -1,22 +1,14 @@
-import { combineReducers, createStore, applyMiddleware, compose } from 'redux'
-import { createLogger } from 'redux-logger'
-
+import { combineReducers } from 'redux'
 import { reducer as UserReducer } from './UserRedux'
 
-export default (() => {
-  const middlewares = []
-  const enhancers = []
+import RootSaga from '../saga'
+import configureStore from './CreateStore'
 
+export default (() => {
   const rootReducer = combineReducers({
+    //forms: ReduxForm
     users: UserReducer
   })
-
-  const logger = createLogger()
-  middlewares.push(logger)
-
-  enhancers.push(applyMiddleware(...middlewares))
-
-  const store = createStore(rootReducer, compose(...enhancers))
-
-  return store
+  const rootSaga = RootSaga
+  return configureStore(rootReducer, rootSaga)
 })()

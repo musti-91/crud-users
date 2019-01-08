@@ -1,532 +1,234 @@
 {
-  "users": {
-    "results": [
+  "users": [
     {
-      "gender": "female",
-      "name": {
-        "title": "miss",
-        "first": "alexis",
-        "last": "thompson"
-      },
-      "location": {
-        "street": "8745 hillsborough road",
-        "city": "tauranga",
-        "state": "bay of plenty",
-        "postcode": 38847,
-        "coordinates": {
-          "latitude": "65.4948",
-          "longitude": "146.0388"
-        },
-        "timezone": {
-          "offset": "-7:00",
-          "description": "Mountain Time (US & Canada)"
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
         }
       },
-      "email": "alexis.thompson@example.com",
-      "login": {
-        "uuid": "0b22d6c1-5b14-44fb-b7fe-a417f8a31565",
-        "username": "tinymouse327",
-        "password": "zippo",
-        "salt": "Ufrs9RUE",
-        "md5": "8fe3bdc439fe5c5693fbc2b9913ab137",
-        "sha1": "b181fe33a2f86f52351561378b0e2125840e2090",
-        "sha256": "711f7d29c6cf83ede4bf8a2b9819e5e24ab0f4f45072b26456431ad45e2b91c4"
-      },
-      "dob": {
-        "date": "1948-05-14T20:15:55Z",
-        "age": 70
-      },
-      "registered": {
-        "date": "2009-08-26T07:05:37Z",
-        "age": 9
-      },
-      "phone": "(562)-134-3425",
-      "cell": "(380)-098-1854",
-      "id": {
-        "name": "",
-        "value": null
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/94.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/94.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/94.jpg"
-      },
-      "nat": "NZ"
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
     },
     {
-      "gender": "male",
-      "name": {
-        "title": "mr",
-        "first": "tom",
-        "last": "collins"
-      },
-      "location": {
-        "street": "4233 park road",
-        "city": "balbriggan",
-        "state": "galway city",
-        "postcode": 37100,
-        "coordinates": {
-          "latitude": "-12.0420",
-          "longitude": "-103.3825"
-        },
-        "timezone": {
-          "offset": "+8:00",
-          "description": "Beijing, Perth, Singapore, Hong Kong"
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
         }
       },
-      "email": "tom.collins@example.com",
-      "login": {
-        "uuid": "84d10fd2-d96a-40e2-96a1-542b16cbd71c",
-        "username": "silverostrich478",
-        "password": "amber",
-        "salt": "iThxWUZB",
-        "md5": "ec4cd7e32b7618f308a5aeb66acab2cd",
-        "sha1": "0f379710a085b4c4c2fca50076e35f6b466f5f2b",
-        "sha256": "33dbb231ab4bf7eeb0fc779c66219ca48ac88b5e53bb66ce41e18d4dc8405fd6"
-      },
-      "dob": {
-        "date": "1952-10-21T11:43:36Z",
-        "age": 66
-      },
-      "registered": {
-        "date": "2011-12-09T14:09:14Z",
-        "age": 7
-      },
-      "phone": "071-877-8324",
-      "cell": "081-810-8969",
-      "id": {
-        "name": "PPS",
-        "value": "2291868T"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/men/52.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/men/52.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/52.jpg"
-      },
-      "nat": "IE"
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "miss",
-        "first": "bobbie",
-        "last": "daniels"
-      },
-      "location": {
-        "street": "5592 shady ln dr",
-        "city": "cairns",
-        "state": "western australia",
-        "postcode": 374,
-        "coordinates": {
-          "latitude": "28.2732",
-          "longitude": "-28.5497"
-        },
-        "timezone": {
-          "offset": "+10:00",
-          "description": "Eastern Australia, Guam, Vladivostok"
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
         }
       },
-      "email": "bobbie.daniels@example.com",
-      "login": {
-        "uuid": "298edcbd-546d-410d-b9f4-4f1dad0f133f",
-        "username": "smalllion829",
-        "password": "dandan",
-        "salt": "4TFSr1w3",
-        "md5": "86d5b4f1caa50a025dcd229bb14b8b95",
-        "sha1": "e028195a4785315c6e96cc31c78182e508aad705",
-        "sha256": "2bdd075e36b84c87421e5a9dd11d5512a8250b7a43becde2c12c0fbf23c3ca74"
-      },
-      "dob": {
-        "date": "1945-08-15T16:07:34Z",
-        "age": 73
-      },
-      "registered": {
-        "date": "2013-10-20T17:39:33Z",
-        "age": 5
-      },
-      "phone": "04-3331-1344",
-      "cell": "0488-355-584",
-      "id": {
-        "name": "TFN",
-        "value": "641019238"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/30.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/30.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/30.jpg"
-      },
-      "nat": "AU"
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "mrs",
-        "first": "rafaëlla",
-        "last": "blokzijl"
-      },
-      "location": {
-        "street": "1963 f.c. dondersstraat",
-        "city": "heumen",
-        "state": "zuid-holland",
-        "postcode": 26571,
-        "coordinates": {
-          "latitude": "-29.3298",
-          "longitude": "90.4928"
-        },
-        "timezone": {
-          "offset": "+8:00",
-          "description": "Beijing, Perth, Singapore, Hong Kong"
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
         }
       },
-      "email": "rafaëlla.blokzijl@example.com",
-      "login": {
-        "uuid": "4e1eb8b4-d5e4-4c8c-8b47-55611577dd69",
-        "username": "lazysnake136",
-        "password": "rhodes",
-        "salt": "QZ23iaEn",
-        "md5": "38c50ee20a2bc95357d8bb2d2ae01da3",
-        "sha1": "907a627a516b45ebb600be113298a858e6e26dfd",
-        "sha256": "d71853f415386d38993c6f859e9c423de04aedb6de10ad1c5ed0483d6a678a6d"
-      },
-      "dob": {
-        "date": "1993-02-19T15:53:37Z",
-        "age": 25
-      },
-      "registered": {
-        "date": "2003-04-02T20:56:53Z",
-        "age": 15
-      },
-      "phone": "(676)-594-0509",
-      "cell": "(138)-967-5079",
-      "id": {
-        "name": "BSN",
-        "value": "69015776"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/81.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/81.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg"
-      },
-      "nat": "NL"
+      "phone": "493-170-9623 x156",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "mrs",
-        "first": "freja",
-        "last": "christiansen"
-      },
-      "location": {
-        "street": "175 ahornvænget",
-        "city": "klitmøller",
-        "state": "danmark",
-        "postcode": 37423,
-        "coordinates": {
-          "latitude": "3.7670",
-          "longitude": "11.4954"
-        },
-        "timezone": {
-          "offset": "-9:00",
-          "description": "Alaska"
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
         }
       },
-      "email": "freja.christiansen@example.com",
-      "login": {
-        "uuid": "e797202f-36d0-48bb-816d-336f2bdde207",
-        "username": "tinykoala513",
-        "password": "stone1",
-        "salt": "OFO1YRGd",
-        "md5": "7c482c3f8934aec17ee4e88df710140e",
-        "sha1": "22c10817dc151eda8c42429b823b61086ed36428",
-        "sha256": "c0205697076c9119e16daf41c39ed919a15a1ef0f134d6d287f1053fc8d38d99"
-      },
-      "dob": {
-        "date": "1976-07-15T14:13:54Z",
-        "age": 42
-      },
-      "registered": {
-        "date": "2008-10-08T10:26:12Z",
-        "age": 10
-      },
-      "phone": "32759368",
-      "cell": "48749118",
-      "id": {
-        "name": "CPR",
-        "value": "355636-7140"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/61.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
-      },
-      "nat": "DK"
+      "phone": "(254)954-1289",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
     },
     {
-      "gender": "male",
-      "name": {
-        "title": "mr",
-        "first": "lance",
-        "last": "dönmez"
-      },
-      "location": {
-        "street": "2993 donkere gaard",
-        "city": "hengelo",
-        "state": "groningen",
-        "postcode": 90675,
-        "coordinates": {
-          "latitude": "-51.9742",
-          "longitude": "90.5556"
-        },
-        "timezone": {
-          "offset": "+6:00",
-          "description": "Almaty, Dhaka, Colombo"
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
         }
       },
-      "email": "lance.dönmez@example.com",
-      "login": {
-        "uuid": "7c0e1d9b-a9f7-4181-b15d-fbb80ceaf039",
-        "username": "sadtiger896",
-        "password": "midway",
-        "salt": "jLClVyJi",
-        "md5": "fe22be1d8e7908d4932c9932b3453fe2",
-        "sha1": "79910dfb1688a878accb092a75450430ed62f094",
-        "sha256": "66c08af1bb0461d4656dd204d7e5d1c2dfed9240cf6cf07f7aad2130026f78fe"
-      },
-      "dob": {
-        "date": "1956-08-08T12:31:11Z",
-        "age": 62
-      },
-      "registered": {
-        "date": "2012-05-18T17:21:08Z",
-        "age": 6
-      },
-      "phone": "(188)-273-8393",
-      "cell": "(211)-115-0200",
-      "id": {
-        "name": "BSN",
-        "value": "10992316"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/men/74.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
-      },
-      "nat": "NL"
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "miss",
-        "first": "nalan",
-        "last": "oraloğlu"
-      },
-      "location": {
-        "street": "4064 kushimoto sk",
-        "city": "bayburt",
-        "state": "elazığ",
-        "postcode": 72303,
-        "coordinates": {
-          "latitude": "43.1293",
-          "longitude": "104.3116"
-        },
-        "timezone": {
-          "offset": "-3:30",
-          "description": "Newfoundland"
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099",
+        "geo": {
+          "lat": "24.8918",
+          "lng": "21.8984"
         }
       },
-      "email": "nalan.oraloğlu@example.com",
-      "login": {
-        "uuid": "94f52610-0614-4a8a-9db8-0de6796a54c9",
-        "username": "crazyrabbit121",
-        "password": "blueberr",
-        "salt": "tGZ6Xg0j",
-        "md5": "c28a2a95f600e524fa2b638248bcff10",
-        "sha1": "b1b41cea5e4a78c08c67b7229490eb8b097d89dd",
-        "sha256": "7a24c51930ca05a4e90f85fc53fb0b87403cb598caf02e49c26098a64976c6dd"
-      },
-      "dob": {
-        "date": "1975-02-17T15:36:18Z",
-        "age": 43
-      },
-      "registered": {
-        "date": "2006-03-18T02:35:40Z",
-        "age": 12
-      },
-      "phone": "(901)-185-4841",
-      "cell": "(084)-160-9258",
-      "id": {
-        "name": "",
-        "value": null
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/28.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
-      },
-      "nat": "TR"
+      "phone": "210.067.6132",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "ms",
-        "first": "clara",
-        "last": "lévesque"
-      },
-      "location": {
-        "street": "9225 pierre ave",
-        "city": "waterloo",
-        "state": "manitoba",
-        "postcode": "C8B 7G7",
-        "coordinates": {
-          "latitude": "73.1473",
-          "longitude": "-44.3285"
-        },
-        "timezone": {
-          "offset": "+11:00",
-          "description": "Magadan, Solomon Islands, New Caledonia"
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
         }
       },
-      "email": "clara.lévesque@example.com",
-      "login": {
-        "uuid": "ac7ec7f1-3d68-48a5-9c26-0b683c4365e2",
-        "username": "bluecat978",
-        "password": "wayne",
-        "salt": "tTyZK66b",
-        "md5": "1441b2770d5f96a1a8bb91711576bf3e",
-        "sha1": "819045d697a3483f30b830eb1bafd4a9184a1bd0",
-        "sha256": "daf0ca7699e431a003436f60f4283c87ee3436c813cf1720bf202bac3ea08373"
-      },
-      "dob": {
-        "date": "1975-04-17T18:55:27Z",
-        "age": 43
-      },
-      "registered": {
-        "date": "2008-11-11T23:45:05Z",
-        "age": 10
-      },
-      "phone": "711-714-6132",
-      "cell": "037-095-5232",
-      "id": {
-        "name": "",
-        "value": null
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/74.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
-      },
-      "nat": "CA"
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
     },
     {
-      "gender": "male",
-      "name": {
-        "title": "mr",
-        "first": "glen",
-        "last": "roberts"
-      },
-      "location": {
-        "street": "3669 west street",
-        "city": "athlone",
-        "state": "dún laoghaire–rathdown",
-        "postcode": 63849,
-        "coordinates": {
-          "latitude": "20.1130",
-          "longitude": "-15.4184"
-        },
-        "timezone": {
-          "offset": "-9:00",
-          "description": "Alaska"
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109",
+        "geo": {
+          "lat": "24.6463",
+          "lng": "-168.8889"
         }
       },
-      "email": "glen.roberts@example.com",
-      "login": {
-        "uuid": "2c6929be-e3ab-42ed-bb5e-5e6412229030",
-        "username": "brownladybug602",
-        "password": "chris1",
-        "salt": "Swof8HpA",
-        "md5": "df88130a1d446c4b456a3e6e16140af8",
-        "sha1": "8f81065a6d77e62828af90a2b20368674f4a0f88",
-        "sha256": "9ef872bcd8f5975fd645d9a5651393a409acdb717d48a9e31eaca3723c1d2dee"
-      },
-      "dob": {
-        "date": "1992-03-29T01:16:53Z",
-        "age": 26
-      },
-      "registered": {
-        "date": "2006-09-15T17:40:37Z",
-        "age": 12
-      },
-      "phone": "071-956-8698",
-      "cell": "081-659-8314",
-      "id": {
-        "name": "PPS",
-        "value": "1271086T"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/men/20.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/men/20.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
-      },
-      "nat": "IE"
+      "phone": "(775)976-6794 x41206",
+      "website": "conrad.com",
+      "company": {
+        "name": "Yost and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
     },
     {
-      "gender": "female",
-      "name": {
-        "title": "ms",
-        "first": "susie",
-        "last": "perez"
-      },
-      "location": {
-        "street": "6079 kingsway",
-        "city": "wakefield",
-        "state": "buckinghamshire",
-        "postcode": "K35 3TX",
-        "coordinates": {
-          "latitude": "-75.2432",
-          "longitude": "-134.8766"
-        },
-        "timezone": {
-          "offset": "-5:00",
-          "description": "Eastern Time (US & Canada), Bogota, Lima"
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
         }
       },
-      "email": "susie.perez@example.com",
-      "login": {
-        "uuid": "0ff342ae-aba0-4563-94b5-8dec1f224c09",
-        "username": "tinymeercat931",
-        "password": "mantis",
-        "salt": "Alea2jTt",
-        "md5": "16e44ffde0808c996d66e54177da474a",
-        "sha1": "78f970184af1428ce1189142342666607a7ca048",
-        "sha256": "ca04fe0a9ae309d35481ea0888ae83a743e2f7eee60bdffcc178d31ee3d2e06f"
-      },
-      "dob": {
-        "date": "1956-02-09T08:33:15Z",
-        "age": 62
-      },
-      "registered": {
-        "date": "2006-10-07T23:01:39Z",
-        "age": 12
-      },
-      "phone": "016973 68826",
-      "cell": "0724-895-956",
-      "id": {
-        "name": "NINO",
-        "value": "BJ 56 40 77 N"
-      },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/women/34.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/women/34.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/34.jpg"
-      },
-      "nat": "GB"
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
     }
-  ],
-  "info": {
-    "seed": "0a63522d458fa383",
-    "results": 10,
-    "page": 1,
-    "version": "1.2"
-  }
- }
+  ]
 }

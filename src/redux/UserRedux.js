@@ -1,14 +1,14 @@
 import Immutable from 'seamless-immutable'
 import { createActions, createReducer } from 'reduxsauce'
 
-// State => users state
+// State => create Immutable state.
 const INITIAL_STATE = Immutable({
   fetching: false,
   users: [],
-  fetchingError: null
+  fetchingError: {}
 })
 
-// Actions
+// Define Actions.
 const { Types, Creators } = createActions({
   fetchUsersStart: null,
   fetchUsersSuccess: ['users'],
@@ -18,18 +18,18 @@ const { Types, Creators } = createActions({
 
 export const UserTypes = Types
 export default Creators
-
+// actions functions
 export const fetchUsersStart = state =>
   state.merge({
     fetching: true,
     users: [],
-    fetchingError: null
+    fetchingError: {}
   })
 export const fetchUsersSuccess = (state, { users }) =>
   state.merge({
     fetching: false,
     users,
-    fetchingError: null
+    fetchingError: {}
   })
 export const fetchUsersFailure = (state, { error }) =>
   state.merge({
