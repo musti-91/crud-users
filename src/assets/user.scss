@@ -1,0 +1,32 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 230px !important;
+  padding-right: 0 !important;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  .user-name{
+    width: 200px !important;
+  }
+  .user-logo {
+    width: 20% !important;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .info-user {
+    display: flex;
+    flex-direction: column;
+    width: 250px !important;
+    margin: 10px 0 !important;
+    &>* {
+      align-self: baseline;
+      margin-bottom: 10px !important;
+    }
+  }
+}

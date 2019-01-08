@@ -1,15 +1,23 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Container, Segment, Button, Icon } from 'semantic-ui-react'
 
-import UserActions from '../redux/UserRedux'
-class Home extends Component {
-  render(){
-    return (
-      <div>
-        Home
-      </div>
-    )
-  }
+import UsersContainer from './UsersContainer'
+import AddUserContainer from './AddUserContainer'
+
+const Home = () => {
+  return (
+    <Container className="container">
+      <Link to="/add-user">
+        <Button>
+          Add User <Icon name="user plus" />
+        </Button>
+      </Link>
+      <Segment>
+        <UsersContainer />
+      </Segment>
+    </Container>
+  )
 }
 
 export default Home

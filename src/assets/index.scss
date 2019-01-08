@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import './home.scss';
+@import './userContainer.scss';
+@import './user.scss';
+i {
+  transition: all 400ms !important;
+}
+.side-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5px;
+  transition: all 400ms;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #000;
+  height: 230px;
+  li {
+    list-style-type: none;
+    margin: auto 0;
+    &:first-child {
+      transition: all 400ms;
+      &:hover {
+        i::before {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

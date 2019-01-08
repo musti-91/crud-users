@@ -1,6 +1,7 @@
 import Home from './Home'
 import UsersContainer from './UsersContainer'
 import User from '../components/User'
+import AddUserContainer from './AddUserContainer'
 
 export const routes = {
   Home: {
@@ -13,10 +14,10 @@ export const routes = {
     exact: true,
     component: UsersContainer
   },
-  user: {
-    path: '/:user',
+  addUser: {
+    path: '/add-user',
     exact: true,
-    component: User
+    component: AddUserContainer
   }
 }
 export const apiConfig = async (url, method, path, data) => {

@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 
+import 'semantic-ui-css/semantic.min.css'
+import './assets/index.css'
 import Routing from './containers/Routing'
 // added
 import { Provider } from 'react-redux'
