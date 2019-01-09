@@ -19,14 +19,3 @@ export const routes = {
     component: AddUserContainer
   }
 }
-export const apiConfig = async (url, method, path, data) => {
-  const res = await fetch(url + path, {
-    method,
-    body: JSON.stringify(data),
-    headers: {
-      Access: 'application/json',
-      'Content-Type': 'application/json'
-    }
-  })
-  return await res.json()
-}
