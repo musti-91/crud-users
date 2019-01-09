@@ -9,14 +9,13 @@ export const api = {
 
   GET: id => fetch(url + id).then(res => res.json()),
 
-  POST: (id, newPost) =>
-    fetch(url + id, {
+  POST: (newUser) =>
+    fetch(url, {
       method: 'POST',
-      body: JSON.stringify(newPost),
+      body: JSON.stringify(newUser),
       headers
     }).then(res => res.json()),
-
-  DELETE: id =>
+  DELETE: (id) =>
     fetch(url + id, { method: 'DELETE', headers }).then(res => res.json()),
 
   PUT: (id, updatesUser) =>

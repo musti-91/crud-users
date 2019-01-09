@@ -10,7 +10,7 @@
   -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
-  .user-name{
+  .user-name {
     width: 200px !important;
   }
   .user-logo {
@@ -22,11 +22,45 @@
   .info-user {
     display: flex;
     flex-direction: column;
-    width: 250px !important;
+    width: 300px !important;
     margin: 10px 0 !important;
     &>* {
       align-self: baseline;
       margin-bottom: 10px !important;
     }
   }
+}
+
+.add-user {
+  max-width: 1000px !important;
+  width: 800px !important;
+  padding: 10px !important;
+  margin: 0 auto !important;
+  .form {
+    div {
+      width: 100%;
+      margin-bottom: 10px !important;
+    }
+  }
+  .add-button {
+    margin: 0 auto !important;
+    width: 100px !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+  }
+}
+
+.ui.fade.animated.button .visible.content {
+  top: 50% !important;
+  left: 0% !important;
+  width: 100px !important;
+  height: 30px !important;
+}
+
+.error {
+  color: red;
+}
+
+.light-coral {
+  background-color: lightcoral !important;
 }

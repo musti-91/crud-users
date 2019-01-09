@@ -1,6 +1,5 @@
 import Home from './Home'
 import UsersContainer from './UsersContainer'
-import User from '../components/User'
 import AddUserContainer from './AddUserContainer'
 
 export const routes = {

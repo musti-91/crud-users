@@ -1,6 +1,12 @@
 import { all, takeLatest } from 'redux-saga/effects'
 
-import { fetchUsers } from './UserSaga'
+import {
+  fetchUsers,
+  getUser,
+  addUser,
+  updateUser,
+  deleteUser
+} from './UserSaga'
 import { UserTypes } from '../redux/UserRedux'
 
 import { api as apiConfig } from '../utils/apiConfig'
@@ -18,7 +24,11 @@ export default (() => {
        * saga will take this and passed it to our saga.
        * Doc's: https://redux-saga.js.org/docs/basics/UsingSagaHelpers.html
        */
-      takeLatest(UserTypes.FETCH_USERS_START, fetchUsers, apiConfig)
+      takeLatest(UserTypes.FETCH_USERS_START, fetchUsers, apiConfig),
+      takeLatest(UserTypes.GET_USER, getUser, apiConfig),
+      takeLatest(UserTypes.ADD_USER, addUser, apiConfig),
+      takeLatest(UserTypes.UPDATE_USER, updateUser, apiConfig),
+      takeLatest(UserTypes.DELETE_USER, deleteUser, apiConfig)
     ])
   }
 })()

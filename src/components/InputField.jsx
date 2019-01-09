@@ -2,23 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Input } from 'semantic-ui-react'
 
-const InputField = ({
-  onChange,
-  placeholder,
-  icon,
-  label,
-  error,
-  loading,
-  iconPosition
-}) => (
-  <Input
-    icon={icon && icon}
-    placeholder={placeholder && placeholder}
-    onChange={onChange}
-    label={label && label}
-    loading={loading && loading}
-    error={error && error}
-  />
+const InputField = ({ onChange, placeholder, icon, label, error, loading, iconPosition }) => (
+  <div>
+    <Input
+      icon={icon && icon}
+      placeholder={placeholder && placeholder}
+      onChange={onChange}
+      label={label && label}
+      loading={loading && loading}
+    />
+    {error && <span className="error">{error}</span>}
+  </div>
 )
 
 InputField.propTypes = {

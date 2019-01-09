@@ -1,6 +1,7 @@
+
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Container, Header, Image,Icon } from 'semantic-ui-react'
+import { Container, Header, Image, Icon } from 'semantic-ui-react'
 
 import SideList from './SideList'
 
@@ -10,10 +11,12 @@ const User = ({ user, onDelete, onEdit }) => (
       size="tiny"
       circular
       avatar
-      src={require('../assets/iu.png')}
+      src={user.picture.medium}
       className="user-logo"
     />
-    <Header size='large' className="user-name">{user.name}</Header>
+    <Header size="large" className="user-name">
+      {user.name}
+    </Header>
     <Header className="info-user">
       <Header sub>
         <Icon name="mail" />
@@ -37,7 +40,7 @@ const User = ({ user, onDelete, onEdit }) => (
       </Header>
       <Header sub>
         <Icon name="map" />
-        {user.address.street+", "+user.address.suite}
+        {user.address.street + ', ' + user.address.suite}
       </Header>
     </Header>
     <SideList onDelete={onDelete} onEdit={onEdit} />

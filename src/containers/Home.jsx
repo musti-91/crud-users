@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Segment, Button, Icon } from 'semantic-ui-react'
 
+import Loader from '../components/Loader'
 import UsersContainer from './UsersContainer'
-import AddUserContainer from './AddUserContainer'
 
 const Home = () => {
   return (
@@ -20,4 +20,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Loader(Home)
